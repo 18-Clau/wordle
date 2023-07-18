@@ -4,7 +4,7 @@ let palabra = ""//lista [Math.floor(Math.random() * lista.length)];
 //alert (palabra)
 let intentos = 6;
 
-const API = 'http://random-word-api.herokuapp.com/word?length=5&lang=es' 
+const API = 'https://random-word-api.herokuapp.com/word?length=5&lang=es' 
 
 fetch (API) 
 .then (response =>response.json())
